@@ -1,0 +1,34 @@
+h1 {
+font-family: 'Arial';
+}
+
+h2 {
+font-family: 'Arial';
+}
+
+p {
+font-family: 'Arial';
+}
+
+.resizeimage {
+   max-width: 700px; 
+   min-width: 300px; 
+   text-align: center;
+}
+.resizeimage img { width: 100%; }
+
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #fd9535;/*button colour*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*when push the button*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*move below*/
+  border-bottom: none;/*delete the line*/
+}
